@@ -1,4 +1,3 @@
-// src/pages/SplashScreen.jsx
 import React, { useState, useEffect } from 'react';
 import BackgroundPattern from '../components/splash/BackgroundPattern';
 import FloatingElements from '../components/splash/FloatingElements';
@@ -6,6 +5,7 @@ import LogoContainer from '../components/splash/LogoContainer';
 import TitleSection from '../components/splash/TitleSection';
 import LoadingAnimation from '../components/splash/LoadingAnimation';
 import Footer from '../components/splash/Footer';
+import { ArrowUpSquare } from 'lucide-react';
 
 export default function SplashScreen({ onComplete }) {
   const [progress, setProgress] = useState(0);
